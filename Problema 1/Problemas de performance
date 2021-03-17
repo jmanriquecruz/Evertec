@@ -1,0 +1,17 @@
+Nivel de base de datos
+Hardware
+Revisar el consumo de recursos del servidor
+Conexiones 
+Revisar el log de transacciones
+
+Software
+1.Revisar el plan de ejecucion de la consultas que traen los movimientos
+2.Hacer una consulta en el caso de sql server sys.dm_exec_query_stats para saber cuales son los querys con mayor consumo o mas ejecutadas
+2.Revisar que los indices esten creados 
+3.Ver politica de actualizacion de estadisticas
+
+Sito Web
+Revisar recursos del servidor
+Ver las ultimas actualizaciones instaladas
+Si el problema es por recursos, tratar de escalar horizontalmente
+
